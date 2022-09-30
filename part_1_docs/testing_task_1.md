@@ -18,24 +18,24 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-    if card.value = 1:
+    if card.value = 1:  # Two equals signs required.
       return True
-    else
+    else  #Missing colon.
       return False
    
 
-  dif highest_card(self, card1 card2):
+  dif highest_card(self, card1 card2):  #Misspelled def and missing comma between card1 and card2.
   if card1.value > card2.value:
-    return card
+    return card #Should be return card1.
   else:
     return card2
   
 
 
 def cards_total(self, cards):
-  total
+  total #Should be total = 0.
   for card in cards:
     total += card.value
-    return "You have a total of" + total
+    return "You have a total of" + total  #Indent to line up with for.
   
 ```
